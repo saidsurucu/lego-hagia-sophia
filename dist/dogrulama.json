@@ -1,0 +1,18 @@
+{
+  "piece_count": 4149,
+  "collisions": [],
+  "unsupported": [],
+  "connected_components": 1,
+  "component_sizes": [
+    4149
+  ],
+  "connection_edges": 6212,
+  "out_of_base": [],
+  "minimum_support_studs_above_base": 1,
+  "single_stud_supported_piece_count": 1104,
+  "body_height_cm": 23.68,
+  "height_cm": 23.84,
+  "method": "Upright stud-column envelopes, exact side-tile bounds and directional LDraw-unit contacts; round parts use conservative rectangular envelopes.",
+  "physical_build_tested": false,
+  "limitations": "No clutch-force, bending, torsion, manufacturing-tolerance or transport-load simulation. Arch voids retain conservative body envelopes; curved-slope stepped undersides are modeled by stud columns."
+}

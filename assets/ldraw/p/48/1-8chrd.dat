@@ -1,0 +1,17 @@
+0 Hi-Res Chord 0.125
+0 Name: 48\1-8chrd.dat
+0 Author: Willy Tschager [Holly-Wood]
+0 !LDRAW_ORG 48_Primitive UPDATE 2024-01
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2009-05-02 [PTadmin] Official Update 2009-01
+0 !HISTORY 2024-01-04 [Holly-Wood] Complete re-write, original by guyvivan
+0 !HISTORY 2024-01-29 [OrionP] Official Update 2024-01
+
+0 // Vertices calculated by LDPartEditor (PrimGen 2.X)
+
+4 16 .7071 0 .7071 1 0 0 .9914 0 .1305 .7934 0 .6088
+4 16 .7934 0 .6088 .9914 0 .1305 .9659 0 .2588 .866 0 .5
+3 16 .866 0 .5 .9659 0 .2588 .9239 0 .3827

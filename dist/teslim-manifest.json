@@ -1,0 +1,27 @@
+{
+  "model": "Ayasofya",
+  "pieces": 4149,
+  "dimensions_cm": [
+    38.4,
+    38.4,
+    23.84
+  ],
+  "sha256": {
+    "ayasofya-arka.blend": "aee4980752f4a6487ec2e11e5614db0c983129282378e39f4757284d41a5d099",
+    "ayasofya-arka.png": "0ef1f1e72531ce2671fe0240cd8bcdb90a08d3fee7e8e80b6d9acb036a4329d7",
+    "ayasofya-bati.blend": "6c5f84ac58bd3be0de7c5c0d2c560bfb5c17b539ffcd3fe6466670af481e0d23",
+    "ayasofya-bati.png": "090a892c169305012b61de1339d27ff261ba8ce4b2101c4fab88783cf34a3d2b",
+    "ayasofya-dogu.blend": "866eb2fa4a70c34ed94532980f77dcf43aa02f8e63771259ec20998479994a73",
+    "ayasofya-dogu.png": "8b902b6bcb71325d97ba0abfb9da8b64a22fa0c0902dfe2adee82dd722a2202c",
+    "ayasofya.blend": "70551e96419fe7737efcdfcde00ac2e5146cc8740be34f2d5e6205f69f2fee72",
+    "ayasofya.ldr": "cf62c75e1092165dc7d2f1a44cd57fccb0f3235369e5d46c434b88b2e3e6027a",
+    "ayasofya.png": "8928ebf67348a28bc82f3167ae948e0b1dfd4853dbfd63e69aa886d0d81933a8",
+    "bricklink-wanted.xml": "1976d6a4980c4f04b13c74c3c8571bce1ee7ebd5ab8340f067a9d69d28882ee6",
+    "dogrulama.json": "72218c69d810b419e95ec56b5b41541b3826b7707760f7a94521524388bf1e62",
+    "katalog-dogrulama.json": "69c200c675a5505bade88cc328a2beac95e9fa8f1503712aa2113bf1d5cbbdee",
+    "ldraw-geometri-dogrulama.json": "634c8444077a4b9624de982139ae1c4f0a8ecbcb9531f310b9fb1f6d7a03086d",
+    "model.json": "acf1f3c232acc3395ed6f9d5ac25e65685ce73a6bfa7843055b1575f23cd2637",
+    "parca-listesi.csv": "b020ae5e9dfe91db6a81796b09919ce492b0d2e1df775533704843cb072d783f",
+    "yapim-rehberi.html": "8d30bac75e33f5e1b84a562b0cb1279cf3d9dd39ce2fd398119e462608549a77"
+  }
+}

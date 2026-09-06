@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.blend1
+.DS_Store
+
+# Local version archives and downloadable release bundle
+/archives/
+/ayasofya-seti.zip

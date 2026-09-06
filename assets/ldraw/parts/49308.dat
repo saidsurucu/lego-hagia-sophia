@@ -1,0 +1,34 @@
+0 Cylinder  3 x  3 with Dome Top with Open Stud
+0 Name: 49308.dat
+0 Author: Gerald Lasser [GeraldLasser]
+0 !LDRAW_ORG Part UPDATE 2022-04
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2022-07-18 [PTadmin] Official Update 2022-04
+
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\49308s01.dat
+
+0 // Outer Surface
+1 16 0 32 0 30 0 0 0 -4 0 0 0 30 48\1-12cyli.dat
+1 16 0 32 0 30 0 0 0 -4 0 0 0 -30 48\1-12cyli.dat
+1 16 0 32 0 -30 0 0 0 -4 0 0 0 30 48\1-12cyli.dat
+1 16 0 32 0 -30 0 0 0 -4 0 0 0 -30 48\1-12cyli.dat
+1 16 0 32 0 0 0 30 0 -4 0 -30 0 0 48\1-12cyli.dat
+1 16 0 32 0 0 0 -30 0 -4 0 -30 0 0 48\1-12cyli.dat
+1 16 0 32 0 0 0 30 0 -4 0 30 0 0 48\1-12cyli.dat
+1 16 0 32 0 0 0 -30 0 -4 0 30 0 0 48\1-12cyli.dat
+
+1 16 0 28 0 30 0 0 0 -8 0 0 0 30 48\4-4cyli.dat
+
+1 16 0 20 0 10 0 0 0 -10 0 0 0 10 48\r08o2000.dat
+1 16 0 20 0 10 0 0 0 -10 0 0 0 -10 48\r08o2000.dat
+1 16 0 20 0 -10 0 0 0 -10 0 0 0 10 48\r08o2000.dat
+1 16 0 20 0 -10 0 0 0 -10 0 0 0 -10 48\r08o2000.dat
+
+1 16 0 20 0 0 0 -10 0 -10 0 10 0 0 48\r08o2000.dat
+1 16 0 20 0 0 0 10 0 -10 0 10 0 0 48\r08o2000.dat
+1 16 0 20 0 0 0 -10 0 -10 0 -10 0 0 48\r08o2000.dat
+1 16 0 20 0 0 0 10 0 -10 0 -10 0 0 48\r08o2000.dat

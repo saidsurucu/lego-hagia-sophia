@@ -1,0 +1,45 @@
+0 ~Cylinder  3 x  3 with Dome Top with Open Stud without Outer Surfaces
+0 Name: s\49308s01.dat
+0 Author: Gerald Lasser [GeraldLasser]
+0 !LDRAW_ORG Subpart UPDATE 2024-02
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2022-07-18 [PTadmin] Official Update 2022-04
+0 !HISTORY 2024-03-23 [OrionP] Updated ring primitives
+0 !HISTORY 2024-03-24 [OrionP] Official Update 2024-02
+
+1 16 10 28 10 1 0 0 0 -1 0 0 0 1 stud4a.dat
+1 16 10 28 -10 1 0 0 0 -1 0 0 0 1 stud4a.dat
+1 16 -10 28 10 1 0 0 0 -1 0 0 0 1 stud4a.dat
+1 16 -10 28 -10 1 0 0 0 -1 0 0 0 1 stud4a.dat
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\49308s02.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\49308s02.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\49308s02.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 s\49308s02.dat
+
+1 16 0 0 0 0 0 -1 0 1 0 1 0 0 s\49308s02.dat
+1 16 0 0 0 0 0 1 0 1 0 1 0 0 s\49308s02.dat
+1 16 0 0 0 0 0 -1 0 1 0 -1 0 0 s\49308s02.dat
+1 16 0 0 0 0 0 1 0 1 0 -1 0 0 s\49308s02.dat
+
+1 16 10 3.8 0 0 0 -1.5 0 14.2 0 2.298 0 0 box3u4a.dat
+1 16 -10 3.8 0 0 0 -1.5 0 14.2 0 2.298 0 0 box3u4a.dat
+1 16 0 3.8 -10 2.298 0 0 0 14.2 0 0 0 1.5 box3u4a.dat
+1 16 0 3.8 10 2.298 0 0 0 14.2 0 0 0 1.5 box3u4a.dat
+
+1 16 0 4 0 8.6667 0 0 0 -1 0 0 0 8.6667 48\4-4aring.dat
+1 16 0 4 0 .66667 0 0 0 -1 0 0 0 .66667 4-4ring12.dat
+
+1 16 0 4 0 4 0 0 0 -1 0 0 0 4 4-4ring1.dat
+0 BFC INVERTNEXT
+1 16 0 0 0 4 0 0 0 4 0 0 0 4 4-4cyli.dat
+1 16 0 4 0 4 0 0 0 1 0 0 0 4 4-4edge.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 stud2a.dat
+1 16 0 0 0 6 0 0 0 1 0 0 0 6 4-4edge.dat
+
+1 16 0 0 0 2 0 0 0 1 0 0 0 2 4-4ring3.dat
+1 16 0 0 0 8 0 0 0 1 0 0 0 8 48\4-4aring.dat
+1 16 0 0 0 2 0 0 0 1 0 0 0 2 48\4-4ring4.dat
