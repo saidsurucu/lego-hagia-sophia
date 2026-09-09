@@ -1,0 +1,61 @@
+{
+  "method": "Identical camera and resolution, before/after RGB absolute pixel differences. Render noise can differ; exact exterior placement and volume preservation are checked separately.",
+  "views": [
+    {
+      "image": "ayasofya.png",
+      "dimensions": [
+        3840,
+        3200
+      ],
+      "mean_absolute_rgb_difference_out_of_255": [
+        7.389322916666666e-05,
+        6.005859375e-05,
+        7.6416015625e-05
+      ],
+      "before_sha256": "8928ebf67348a28bc82f3167ae948e0b1dfd4853dbfd63e69aa886d0d81933a8",
+      "after_sha256": "e155f0cb045322952670a05835cfec462859d5b8612270d07797721263773e6f"
+    },
+    {
+      "image": "ayasofya-arka.png",
+      "dimensions": [
+        3840,
+        3200
+      ],
+      "mean_absolute_rgb_difference_out_of_255": [
+        0.00010091145833333333,
+        9.619140625e-05,
+        0.00011686197916666667
+      ],
+      "before_sha256": "0ef1f1e72531ce2671fe0240cd8bcdb90a08d3fee7e8e80b6d9acb036a4329d7",
+      "after_sha256": "4c521cfb11f843bc816258cd005c62a7b41573b1325b4fe7c6783ef2d7321fa6"
+    },
+    {
+      "image": "ayasofya-dogu.png",
+      "dimensions": [
+        1800,
+        1500
+      ],
+      "mean_absolute_rgb_difference_out_of_255": [
+        9.074074074074075e-05,
+        0.00010444444444444444,
+        0.0001162962962962963
+      ],
+      "before_sha256": "8b902b6bcb71325d97ba0abfb9da8b64a22fa0c0902dfe2adee82dd722a2202c",
+      "after_sha256": "534770e264e9566970a325281679c3124542e9be2f77b2c6ffe5045c6c39267f"
+    },
+    {
+      "image": "ayasofya-bati.png",
+      "dimensions": [
+        1800,
+        1500
+      ],
+      "mean_absolute_rgb_difference_out_of_255": [
+        3.962962962962963e-05,
+        3.074074074074074e-05,
+        3.777777777777778e-05
+      ],
+      "before_sha256": "090a892c169305012b61de1339d27ff261ba8ce4b2101c4fab88783cf34a3d2b",
+      "after_sha256": "de29151b330c31aea23204538caadbb875786656a2923e5bf9d8595f050fcc17"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Ayasofya — özel LEGO parça modeli
 
-**4.149 parça · 43 parça türü · 9 renk · 96 alışveriş kalemi · 64 yapım adımı**
+**3.951 parça · 46 parça türü · 9 renk · 98 alışveriş kalemi · 64 yapım adımı**
 
 Taban **48 × 48 stud = 38,4 × 38,4 cm**. En yüksek minarenin uç çıkıntısı
 dahil yükseklik **23,84 cm**. Gövde yüksekliği 23,68 cm'dir.
@@ -8,6 +8,23 @@ dahil yükseklik **23,84 cm**. Gövde yüksekliği 23,68 cm'dir.
 ![Ayasofya modelinin gerçek parça geometrisinden önizlemesi](dist/ayasofya.png)
 
 [Tam seti indir (ZIP)](https://github.com/saidsurucu/lego-hagia-sophia/releases/latest/download/ayasofya-seti.zip) · [Yapım rehberi](dist/yapim-rehberi.html) · [LDraw modeli](dist/ayasofya.ldr)
+
+## Görünüşü koruyan maliyet optimizasyonu
+
+Önceki 4.149 parçadan **3.951 parçaya** geçildi: **198 parça (%4,77) azalma**.
+Kapalı iç bölgelerdeki 529 yerleşim 331 yerleşimle değiştirildi; 124 adet
+2×8, 5 adet 2×6 ve 10 adet 1×6 gri tuğla bu yeni yerleşimlere dahildir.
+İçeride kalan renk ayrımları açık mavimsi griye birleştirildi.
+Dışarıya açık parçaların kimliği, rengi, konumu ve yönü aynen korundu.
+Tabanın üç katlı şaşırtmalı plakaları değiştirilmedi; boşluklara yeni dolgu
+ve ağırlık eklenmedi. Dolu hacim aynı kaldı.
+
+Bu oran **parça azalmasıdır; fiyat tasarrufu oranı değildir**. BrickLink fiyat
+sayfasından kullanılabilir güncel teklif alınamadığı için parasal tasarruf
+hesaplanmadı. Siparişten önce [miktar farklarını](dist/parca-degisimleri.csv)
+aynı satıcının fiyatlarıyla karşılaştırın; büyük parça her teklifte daha ucuz
+olmayabilir. [Optimizasyon raporu](dist/maliyet-optimizasyonu.json).
+Eski model `build(optimize=False)` ile yeniden üretilebilir.
 
 ## Dosyalar
 
@@ -53,7 +70,7 @@ LDraw 72 (koyu mavimsi gri), BrickLink 85'tir. XML bu dönüşümleri içerir.
 Model Ayasofya'nın geniş basık ana kubbesini, doğu/batı yarım kubbelerini,
 pencere sıralarını, yan neflerini, payandalarını ve dört minaresini yorumlar.
 LEGO Architecture Taj Mahal ve Notre-Dame yapım kılavuzlarından yararlanıldı.
-43 parça türü arasında gerçek pencere çerçeveleri, yana bağlanan pencere
+46 parça türü arasında gerçek pencere çerçeveleri, yana bağlanan pencere
 ızgaraları, taş dokulu tuğlalar, kavisli eğimler ve yuvarlak şerefeler bulunur.
 32952 ve 87087 yana bakan pimli tuğlalar cephe ayrıntılarını taşır.
 
@@ -75,26 +92,26 @@ Ayasofya'nın çok açılı fotoğraf kaynakları [fotoğraf kaydındadır](docs
 Model mimari bir yorumdur; iç mekân işlenmemiştir, birebir rölöve değildir.
 
 Üç katlı şaşırtmalı plaka tabanı, iki stud kalınlığında dış duvarlar, iç destek
-şeritleri ve çatı bağlama plakaları kullanılır. Kubbelerin iç taşıyıcıları plaka katmanlarıdır; görünen yüzeyleri kavisli ve
+şeritleri ve çatı bağlama plakaları kullanılır. Kubbelerin iç taşıyıcıları plaka ve tuğla katmanlarıdır; görünen yüzeyleri kavisli ve
 eğimli parçalarla kaplanır. Eğimin yüksek kenarı merkeze yönelir. Büyük kemerin
 üst dolguları resmî parçanın farklı yükseklikteki pimlerine oturur. Özel parça, yapıştırıcı,
 kesme, eğme veya gerilim altında bağlantı yoktur.
 
 Gerçekleştirilen kontroller:
 
-- **4.149 yerleşim:** muhafazakâr gövde zarflarında sıfır çakışma;
+- **3.951 yerleşim:** muhafazakâr gövde zarflarında sıfır çakışma;
   taban üzerindeki bütün parçalar önceden yerleştirilmiş bir parçaya
   alt veya özel olarak modellenen yan pimleriyle bağlanır.
-- **Tek bağlantı ağı:** 6.212 parça-parça bağlantısı. Yerleşim sırasındaki
+- **Tek bağlantı ağı:** 5.981 parça-parça bağlantısı. Yerleşim sırasındaki
   üst parçalar, önceden eklenen taşıyıcı parçaya bağlanıyor.
 - **Gerçek LDraw sınırları:** resmî üçgen/dörtgen geometrisi bağımsız olarak
-  çözülüp dışa aktarılan 4.149 parçanın boyut ve konumlarıyla karşılaştırıldı;
+  çözülüp dışa aktarılan 3.951 parçanın boyut ve konumlarıyla karşılaştırıldı;
   sıfır sınır uyuşmazlığı.
-- **96/96 parça-renk eşleşmesi:** BrickLink'in ilgili parçasına ait renk
+- **98/98 parça-renk eşleşmesi:** BrickLink'in ilgili parçasına ait renk
   görsel kayıtlarıyla doğrulandı. Kaynak ve kanıtlar raporda yer alıyor.
-- **45 otomatik test:** çakışma, havada kalan parça, düz yan temasın bağlantı
+- **48 otomatik test:** çakışma, havada kalan parça, düz yan temasın bağlantı
   sayılmaması, yönü eşleşen yan pim ve yuvalar, yarım stud çakışmaları, merkez studları, karoların üst yüzeyi, dışa aktarma eksenleri, dış ölçüler,
-  yapım sırası ve CSV/XML/LDR tutarlılığı.
+  yapım sırası, dış parçaların/tabanın korunması, dolu hacim eşitliği ve CSV/XML/LDR tutarlılığı.
 
 Raporlar: [bağlantı kontrolü](dist/dogrulama.json),
 [gerçek geometri kontrolü](dist/ldraw-geometri-dogrulama.json),
@@ -102,7 +119,7 @@ Raporlar: [bağlantı kontrolü](dist/dogrulama.json),
 
 **Fiziksel montaj yapılmadı.** Bunlar dijital geometri ve bağlantı
 kontrolleridir; tutunma kuvveti, esneme, burulma veya taşıma dayanımı
-simülasyonu değildir. 1.104 parça tek pimden bağlanır. 24 düşey pencere
+simülasyonu değildir. 1.048 parça tek pimden bağlanır. 24 düşey pencere
 ızgarası ve dört taş madalyon için yan bağlantılar ayrıca modellenmiştir.
 54 geniş kavisli parça dörder, 142 dar kavisli parça ve 88 dik eğim ikişer
 pimle desteklenir. Kavisli parçaların yüksek alt sıralarındaki dolgu plakaları

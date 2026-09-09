@@ -1,0 +1,12 @@
+{
+  "before_pieces": 4149,
+  "after_pieces": 3951,
+  "fewer_pieces": 198,
+  "piece_reduction_percent": 4.77,
+  "removed_placements": 529,
+  "added_placements": 331,
+  "protected_original_placements_unchanged": true,
+  "ordinary_volume_unchanged": true,
+  "price_savings_verified": false,
+  "pricing_note": "Parça sayısı optimizasyonudur. Güncel satıcı fiyatı, stok, minimum sipariş ve kargo doğrulanmadı; parasal tasarruf iddiası içermez. CSV miktar farklarını aynı satıcının birim fiyatlarıyla çarpın."
+}

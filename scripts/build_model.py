@@ -464,7 +464,7 @@ def surface_details(pieces):
             pieces.append(Piece("2412b", 71, x, 25, z, section="Yan nef · kurşun çatı detayları"))
 
 
-def build():
+def build(optimize=True):
     pieces = []
     plinth(pieces)
     lower_body(pieces)
@@ -476,9 +476,15 @@ def build():
     entrance_portico(pieces)
     courtyard_modules(pieces)
     surface_details(pieces)
+    if optimize:
+        from scripts.optimize_model import optimize_interior
+        pieces = optimize_interior(pieces)
     return sorted(pieces, key=lambda p: (p.bottom, (2 if p.mount == "side" else 1 if p.part in ("15068", "11477") else 0), p.z, p.x, p.part))
 
 
 if __name__ == "__main__":
     from scripts.export_model import deliver
-    deliver(build())
+    from scripts.optimize_model import write_report
+    pieces = build()
+    deliver(pieces)
+    write_report(build(optimize=False), pieces, 'dist')

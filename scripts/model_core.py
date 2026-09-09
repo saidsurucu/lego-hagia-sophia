@@ -32,6 +32,8 @@ class Part:
 
 
 PARTS = {
+    "3007": Part(2, 8, 3, "Brick 2 x 8"),
+    "2456": Part(2, 6, 3, "Brick 2 x 6"),
     "3001": Part(2, 4, 3, "Brick 2 x 4"),
     "3002": Part(2, 3, 3, "Brick 2 x 3"),
     "3003": Part(2, 2, 3, "Brick 2 x 2"),

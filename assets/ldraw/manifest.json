@@ -6,6 +6,13 @@
     "sha256": "e429dd760eb6f0cf460a74e6ebf52c023bedbdea82de7801efa1694b5a1a82e8",
     "source": "https://library.ldraw.org/library/official/p/1-16chrd.dat"
   },
+  "p/1-16edge.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "42fc4d69af1281b71cb2eb9546e99e8bca2fc231d05a0379e71d4e1c9a60c95c",
+    "source": "https://library.ldraw.org/library/official/p/1-16edge.dat"
+  },
   "p/1-4chrd.dat": {
     "license_headers": [
       "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -636,6 +643,13 @@
     "sha256": "15463f41f9947dd75486dc7af3231b1037704f1b654c2555e3ba705817a2db75",
     "source": "https://library.ldraw.org/library/official/p/box3u4a.dat"
   },
+  "p/box3u5p.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "0f52d5c372a303f508113ace2c7cba6d52b46171052e76a88266679a74f17ea5",
+    "source": "https://library.ldraw.org/library/official/p/box3u5p.dat"
+  },
   "p/box3u8p.dat": {
     "license_headers": [
       "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -691,6 +705,13 @@
     ],
     "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
     "source": "https://library.ldraw.org/library/official/p/box5.dat"
+  },
+  "p/boxjcyl4.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "ceb4a5fd46fbff7d2e396afbc308379b914b99556b30a136cfb578a3dc360877",
+    "source": "https://library.ldraw.org/library/official/p/boxjcyl4.dat"
   },
   "p/empty.dat": {
     "license_headers": [
@@ -874,6 +895,13 @@
     "sha256": "381169c4592a6ed096c0011e06e6000c65200492fe6126b3aa9e6a51ae2ba244",
     "source": "https://library.ldraw.org/library/official/p/stug3-1x7.dat"
   },
+  "p/stug4-1x7.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "faea6b3da53b4b9c4313577eaca0b03f7d7062d8ee6a44aca9c03abab8d8fc9e",
+    "source": "https://library.ldraw.org/library/official/p/stug4-1x7.dat"
+  },
   "p/t16o1429.dat": {
     "license_headers": [
       "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -930,6 +958,13 @@
     "sha256": "8e5999a1352d8204101b2311ca435f88c7d7af20fb8214fa588e9bacd3942315",
     "source": "https://library.ldraw.org/library/official/parts/2431.dat"
   },
+  "parts/2456.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "59137cf0481aef7fffd3635459813bae50f67869612f64c88e7fcf6f3fd8d384",
+    "source": "https://library.ldraw.org/library/official/parts/2456.dat"
+  },
   "parts/2877.dat": {
     "license_headers": [
       "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -979,12 +1014,26 @@
     "sha256": "8f9a0d0de34b4cb33daddcb7c0c47c44f5726d42099ef2d84703baeede1a46c6",
     "source": "https://library.ldraw.org/library/official/parts/30055.dat"
   },
+  "parts/3007.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "56d95663f63adcf860757d84a9e664a6359fbc51d7b0b425afe03186402b9696",
+    "source": "https://library.ldraw.org/library/official/parts/3007.dat"
+  },
   "parts/3008.dat": {
     "license_headers": [
       "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
     ],
     "sha256": "961b645476d8ae0a68c7c9a12be0521510737ad2b1eecd690302912a8dc81828",
     "source": "https://library.ldraw.org/library/official/parts/3008.dat"
+  },
+  "parts/3009.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "950a186800b17a778e6c4b91420b1846df98c2bdbac8a551cfe7f74ddc831a3e",
+    "source": "https://library.ldraw.org/library/official/parts/3009.dat"
   },
   "parts/3010.dat": {
     "license_headers": [
@@ -1329,12 +1378,26 @@
     "sha256": "ed6218c566690622fed39b8fb3dac9ae9a36df66cac106e2e1d4b5862567841a",
     "source": "https://library.ldraw.org/library/official/parts/s/3005s01.dat"
   },
+  "parts/s/3007s01.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "46ec39d5b0ab81654a15a4b179e195e5ccbef7a4a18eb81dcfb75423dd2a2ffb",
+    "source": "https://library.ldraw.org/library/official/parts/s/3007s01.dat"
+  },
   "parts/s/3008s01.dat": {
     "license_headers": [
       "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
     ],
     "sha256": "47df1b6873e973963a7409f22314445cace6216ca5eb76c1e0b0a9d8492eb07c",
     "source": "https://library.ldraw.org/library/official/parts/s/3008s01.dat"
+  },
+  "parts/s/3009s01.dat": {
+    "license_headers": [
+      "0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt"
+    ],
+    "sha256": "889704b3896146872fdfd6b0f759ec00c90495d94cdd4bb1bed07875024efc47",
+    "source": "https://library.ldraw.org/library/official/parts/s/3009s01.dat"
   },
   "parts/s/3010s01.dat": {
     "license_headers": [
